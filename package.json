@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@solana/spl-token": "^0.3.7",
+    "@solana/spl-token-swap": "^0.2.1",
+    "@solana/web3.js": "^1.73.2",
+    "bs58": "^5.0.0",
     "tronweb": "^5.1.0"
   }
 }
